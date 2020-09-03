@@ -9,8 +9,30 @@ h3 {
     margin: 0.5rem 0em;
 }
 
+ul {
+    margin-top: 2em;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    padding: 1em 0;
+}
+
+span {
+    text-align: center;
+}
+
+.border {
+    width: 60%;
+    border-bottom: 1px solid #DCDCDC;
+    margin: auto;
+}
+
 .col-1-content {
     width: 35%;
+    margin: 0em 1em;
 }
 
 .col-1-main {
@@ -19,12 +41,13 @@ h3 {
 }
 
 .col-1-main > img {
-    width: 65%;
+    width: 66%;
     height: 100%
 }
 
 .col-1-main > div > h1 {
     margin: 0;
+    font-size: 1.5em;
 }
 
 .col-2 {
@@ -41,7 +64,7 @@ h3 {
     height: 30%;
     display: flex;
     justify-content: space-between;
-    margin: 1em 1em;
+    margin: 1em 0em;
 }
 
 .col-2 > h3 {
@@ -49,19 +72,31 @@ h3 {
 }
 
 .container-1 {
-    width: 75%;
+    width: 70%;
     height: 100%;
+    margin: 0em 3em;
+}
+
+.container-2 {
+    border-left: 1px solid black;
+    margin: 0.5em 0em;
+    width: 20%;
 }
 
 .header {
     background: #002540;
     color: white;
-    height: 8%;
+    height: 9%;
     margin: 0;
     padding: 1em 1em;
 }
 
+.header > h1 {
+    margin: 0.5em 1em;
+}
+
 .main-container {
+    display: flex;
     height: 800px;
     margin: 0;
     padding: 0;
