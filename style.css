@@ -1,5 +1,12 @@
 body {
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0.5rem 0em;
 }
 
 .col-1-content {
@@ -42,6 +49,20 @@ body {
 }
 
 .container-1 {
-    width: 80%;
+    width: 75%;
+    height: 100%;
+}
+
+.header {
+    background: #002540;
+    color: white;
+    height: 8%;
+    margin: 0;
+    padding: 1em 1em;
+}
+
+.main-container {
     height: 800px;
+    margin: 0;
+    padding: 0;
 }
